@@ -1,0 +1,44 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+.container{
+    background-color: rgb(19, 58, 69);
+    height: 800px;
+    width:400px;
+    justify-content: center;
+    text-align: center;
+
+    
+}
+
+
+#btn{
+    color: rgb(19, 58, 69);
+   font-size: 20px;
+    border: solid #77cee7;
+    border-radius: 20px ;
+    width: 100px;
+    height: 40px;
+    
+}
+
+#city-name{
+    height: 40px;
+    border-radius: 20px ;
+    text-align: center;
+   border: #77cee7 solid;
+    
+}
+#weather-des{
+    color: #000000;
+    background-color: #ffffff;
+}
